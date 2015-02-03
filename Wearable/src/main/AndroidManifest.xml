@@ -15,7 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.wearable.watchface" >
+    package="com.aheadoftime.analog" >
 
     <uses-sdk android:minSdkVersion="21"
         android:targetSdkVersion="21" />
@@ -52,7 +52,7 @@
                 android:resource="@drawable/preview_analog_circular" />
             <meta-data
                 android:name="com.google.android.wearable.watchface.companionConfigurationAction"
-                android:value="com.example.android.wearable.watchface.CONFIG_ANALOG" />
+                android:value="com.aheadoftime.analog.watchface.CONFIG_ANALOG" />
             <intent-filter>
                 <action android:name="android.service.wallpaper.WallpaperService" />
                 <category android:name="com.google.android.wearable.watchface.category.WATCH_FACE" />

@@ -1,4 +1,4 @@
-package com.example.android.wearable.watchface;
+package com.aheadoftime.analog;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -56,7 +56,7 @@ public class MainActivity extends PreferenceActivity implements
             @Override
             public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
                 String keyMean = getResources().getString(R.string.key_preference_mean);
-                String keyStdev= getResources().getString(R.string.key_preference_stdev);
+                String keyStdev = getResources().getString(R.string.key_preference_stdev);
                 new StartWearableActivityTask().execute("MEAN:" + prefs.getString(keyMean, "5")
                         + ",STDEV:" + prefs.getString(keyStdev, "2"));
             }

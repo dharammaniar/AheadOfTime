@@ -1,4 +1,4 @@
-package com.example.android.wearable.watchface;
+package com.aheadoftime.analog;
 
 import android.app.Activity;
 import android.content.Context;
